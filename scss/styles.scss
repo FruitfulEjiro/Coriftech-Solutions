@@ -8,3 +8,19 @@ $accent: #470672;
 $dark: #130101;
 $light: #fcfcfc;
 $Inter: "Inter", sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  box-sizing: border-box;
+  font-family: $Inter;
+  //   border:1px solid red; FOR DEBUGGING
+}
